@@ -1,0 +1,1 @@
+jQuery(document).ready(function($){function i(){var i=$(".gfield_radio li");$.each(i,function(){var i=$(this).find("input").attr("value");$(this).find("label").html('<img src="'+i+'">')})}i()});
